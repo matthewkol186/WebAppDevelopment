@@ -1,0 +1,51 @@
+body{
+	background:url('crying.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size:cover; 
+	font-family: 'Ramabhadra', sans-serif;
+}
+
+.banner{
+	font-size: 5.5em;
+	color:white;
+	padding-top: 500px;
+}
+
+.banner a{
+	text-decoration:none;
+	color:white;
+}
+
+.banner a:hover{
+	color:#0883FF;
+}
+
+.content{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+ul{
+	margin:0;
+	list-style:none;
+    padding-left:0;
+}
+
+ul li {
+	font-size: 1.8em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color:white;
+}
+
+.content{
+	text-align:center;
+}
+
+h2{
+	color:#0883FF;
+	font-family: 'Lato', sans-serif;
+	padding-top: 30px;
+	font-size: 3em;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Labs</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  	<div class="container">
+	    <div class="jumbotron">
+		  <h1>Hello, Web App Development!</h1>
+		  <p>This is Matthew Sun's coursework page for Web App Development at TJHSST during the 2014-2015 school year. Take a look around!</p>
+		  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+		</div>
+	</div>
+	<div class="container">
+	    <h1>First Semester of Junior Year</h1>
+	    <p> Learn all about my exciting life! </p>
+	    <a href="FirstSemesterJunior/FirstSemesterJunior.html"> Clicky here </a>
+	</div>
+	<div class="container">
+	</div>
+	<script src='/js/scrollReveal.min.js'></script>
+    <script>
+
+      window.sr = new scrollReveal();
+
+    $('a[href^="#"]').on('click', function(event) {
+	    var target = $(this.href);
+	    if( target.length ) {
+	        event.preventDefault();
+	        $('html, body').animate({
+	            scrollTop: target.offset().top
+	        }, 1000);
+	    }
+	});
+
+    </script>
+  </body>
+</html>

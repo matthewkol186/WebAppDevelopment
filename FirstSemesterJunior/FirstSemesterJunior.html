@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>First Semester Junior Year</title>
+    <link rel="stylesheet" href="normalize.css">
+    <!--<link rel="stylesheet" href="bootstrap.min.css">-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Ramabhadra' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div class="wrapper">
+        <h1 style="text-align:center" class="banner"> <a href="http://img4.wikia.nocookie.net/__cb20141116212609/villains/images/9/95/Death-and-taxes.jpg"> My First Semester Junior Year </a> </h1>
+        <div class="content">
+          <h2> • Classes • </h2>
+          <ul>
+              <li>AP Latin</li>
+              <li>AI 1</li>
+              <li>AP Physics C</li>
+              <li>Mobile App Development</li>
+              <li>Multivariable Calculus</li>
+              <li>APUSH</li>
+              <li>English 11</li>
+          </ul>
+          <h2> • 8th periods • </h2>
+          <ul>
+              <li>Bioinformatics Society</li>
+              <li>Manchoir</li>
+              <li>Computer Security Club</li>
+              <li>Forensics Speech</li>
+              <li>Dev Club</li>
+
+          </ul>
+        </div>
+      </div>
+ 	<script src='js/scrollReveal.min.js'></script>
+    <script>
+
+      window.sr = new scrollReveal();
+
+    $('a[href^="#"]').on('click', function(event) {
+	    var target = $(this.href);
+	    if( target.length ) {
+	        event.preventDefault();
+	        $('html, body').animate({
+	            scrollTop: target.offset().top
+	        }, 1000);
+	    }
+	});
+
+    </script>
+  </body>
+</html>
